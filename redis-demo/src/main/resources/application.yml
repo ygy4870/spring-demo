@@ -1,5 +1,9 @@
 
+# 参考博客
+# http://www.iocoder.cn/Spring-Boot/Redis/
+# https://www.cnblogs.com/caizhaokai/p/11037610.html
+
 spring:
     # 环境变量 one | cluster
     profiles:
-        active: cluster
+        active: one
