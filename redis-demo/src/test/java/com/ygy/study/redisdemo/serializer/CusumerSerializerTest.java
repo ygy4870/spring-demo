@@ -3,6 +3,7 @@ package com.ygy.study.redisdemo.serializer;
 import com.ygy.study.redisdemo.model.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 
@@ -17,6 +18,12 @@ public class CusumerSerializerTest {
 
     @Autowired
     RedisTemplate<String, Object> redisTemplate;
+
+    /**
+     * 查看redis 实际配置情况
+     */
+    @Autowired
+    RedisProperties redisProperties;
 
         @Test
         void test_obj_json_serializer() {

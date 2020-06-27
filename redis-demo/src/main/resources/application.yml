@@ -1,0 +1,5 @@
+
+spring:
+    # 环境变量 one | cluster
+    profiles:
+        active: cluster
