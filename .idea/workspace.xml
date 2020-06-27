@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b090b13-a595-4529-944b-16964655560a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/redis-demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CacheConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/cacheconfig/CacheConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/redisconfig/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="37" column="92" lean-forward="true" selection-start-line="37" selection-start-column="92" selection-end-line="37" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSerializable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/model/UserSerializable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCacheDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/dao/UserCacheDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisDemoApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/RedisDemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisCacheManager.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractCacheManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.jar!/org/springframework/cache/support/AbstractCacheManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/RedisDemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/DefaultSerializerTest.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/serializer/CusumerSerializerTest.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/model/UserSerializable.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/model/User.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/serializer/DefaultSerializerTest.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/redisconfig/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/cache/RedisCacheTest.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/dao/UserCacheDao.java" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/cacheconfig/CacheConfig.java" />
+        <option value="$PROJECT_DIR$/redis-demo/.gitignore" />
+        <option value="$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/RedisDemoApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="D:/softwares/apache-maven-3.2.3" />
+        <option name="userSettingsFile" value="D:\softwares\apache-maven-3.2.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/next-edu-git/common/crm-service-parent" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ygy.study.redisdemo.model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RedisCacheTest.redisCacheTest">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CusumerSerializerTest.test_obj_json_serializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygy.study.redisdemo.serializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ygy.study.redisdemo.serializer" />
+      <option name="MAIN_CLASS_NAME" value="com.ygy.study.redisdemo.serializer.CusumerSerializerTest" />
+      <option name="METHOD_NAME" value="test_obj_json_serializer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DefaultSerializerTest.default_serializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygy.study.redisdemo.serializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ygy.study.redisdemo.serializer" />
+      <option name="MAIN_CLASS_NAME" value="com.ygy.study.redisdemo.serializer.DefaultSerializerTest" />
+      <option name="METHOD_NAME" value="default_serializer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DefaultSerializerTest.test_obj_imp_serializer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygy.study.redisdemo.serializer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ygy.study.redisdemo.serializer" />
+      <option name="MAIN_CLASS_NAME" value="com.ygy.study.redisdemo.serializer.DefaultSerializerTest" />
+      <option name="METHOD_NAME" value="test_obj_imp_serializer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RedisCacheTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygy.study.redisdemo.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ygy.study.redisdemo.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.ygy.study.redisdemo.cache.RedisCacheTest" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RedisCacheTest.redisCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ygy.study.redisdemo.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ygy.study.redisdemo.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.ygy.study.redisdemo.cache.RedisCacheTest" />
+      <option name="METHOD_NAME" value="redisCacheTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RedisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ygy.study.redisdemo.RedisDemoApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.RedisDemoApplication" />
+      <item itemvalue="JUnit.DefaultSerializerTest.default_serializer" />
+      <item itemvalue="JUnit.DefaultSerializerTest.test_obj_imp_serializer" />
+      <item itemvalue="JUnit.CusumerSerializerTest.test_obj_json_serializer" />
+      <item itemvalue="JUnit.RedisCacheTest.name" />
+      <item itemvalue="JUnit.RedisCacheTest.redisCacheTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisCacheTest.redisCacheTest" />
+        <item itemvalue="JUnit.RedisCacheTest.name" />
+        <item itemvalue="JUnit.CusumerSerializerTest.test_obj_json_serializer" />
+        <item itemvalue="JUnit.DefaultSerializerTest.test_obj_imp_serializer" />
+        <item itemvalue="JUnit.DefaultSerializerTest.default_serializer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b090b13-a595-4529-944b-16964655560a" name="Default" comment="" />
+      <created>1593182040778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593182040778</updated>
+      <workItem from="1593182044444" duration="12579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RedisDemoApplicationTests_get_and_get - 2020.06.27 at 10h 45m 46s.xml">
+      <configuration name="RedisDemoApplicationTests.get_and_get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisDemoApplicationTests_default_serializer - 2020.06.27 at 10h 56m 34s.xml">
+      <configuration name="RedisDemoApplicationTests.default_serializer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultSerializerTest_default_serializer - 2020.06.27 at 11h 07m 07s.xml">
+      <configuration name="DefaultSerializerTest.default_serializer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultSerializerTest_test_obj_imp_serializer - 2020.06.27 at 11h 10m 49s.xml">
+      <configuration name="DefaultSerializerTest.test_obj_imp_serializer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CusumerSerializerTest_test_obj_json_serializer - 2020.06.27 at 11h 31m 13s.xml">
+      <configuration name="CusumerSerializerTest.test_obj_json_serializer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CusumerSerializerTest_test_obj_json_serializer - 2020.06.27 at 11h 39m 49s.xml">
+      <configuration name="CusumerSerializerTest.test_obj_json_serializer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisCacheTest_name - 2020.06.27 at 15h 16m 15s.xml">
+      <configuration name="RedisCacheTest.name" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisCacheTest_redisCacheTest - 2020.06.27 at 15h 20m 17s.xml">
+      <configuration name="RedisCacheTest.redisCacheTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12579000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.31952018" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295838" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" weight="0.23122318" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31383577" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" weight="0.3295838" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3295838" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3140625" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.11136108" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.ygy.study:redis-demo:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ygy.study:redis-demo:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="1640.268090277778" y="953.0">com.ygy.study:redis-demo:0.0.1-SNAPSHOT</node>
+            <node x="801.7323759920635" y="866.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE</node>
+            <node x="1428.9464285714284" y="729.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE</node>
+            <node x="2284.8157093253967" y="535.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE</node>
+            <node x="594.9999999999998" y="408.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE</node>
+            <node x="588.9999999999998" y="224.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE/org.springframework:spring-expression:jar:5.2.7.RELEASE</node>
+            <node x="1973.6907093253967" y="622.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE</node>
+            <node x="1042.2556944444452" y="622.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE</node>
+            <node x="901.5056944444452" y="535.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="766.9999999999998" y="408.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="1258.9464285714284" y="535.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3</node>
+            <node x="1308.4464285714284" y="408.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3/org.apache.logging.log4j:log4j-api:jar:2.13.3</node>
+            <node x="1076.5056944444452" y="535.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.30</node>
+            <node x="1314.2556944444452" y="622.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
+            <node x="1546.2556944444452" y="622.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.yaml:snakeyaml:jar:1.26</node>
+            <node x="333.35737599206345" y="729.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE</node>
+            <node x="553.6454216269844" y="622.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE</node>
+            <node x="449.4999999999998" y="535.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE/org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE</node>
+            <node x="148.99999999999977" y="321.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE</node>
+            <node x="278.47875496031793" y="224.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE</node>
+            <node x="0.0" y="321.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-oxm:jar:5.2.7.RELEASE</node>
+            <node x="420.4999999999998" y="321.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-aop:jar:5.2.7.RELEASE</node>
+            <node x="159.49999999999977" y="535.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-context-support:jar:5.2.7.RELEASE</node>
+            <node x="948.160714285714" y="408.0">org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30</node>
+            <node x="2761.6964285714284" y="866.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE</node>
+            <node x="2559.8954216269844" y="622.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE</node>
+            <node x="2392.8954216269844" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE</node>
+            <node x="2742.3954216269844" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="2766.8954216269844" y="622.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="2746.8954216269844" y="535.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="2791.8954216269844" y="408.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="1846.6343154761912" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3</node>
+            <node x="1752.6907093253967" y="622.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3/jakarta.activation:jakarta.activation-api:jar:1.2.2</node>
+            <node x="3708.3954216269844" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.assertj:assertj-core:jar:3.16.1</node>
+            <node x="4116.478754960318" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.hamcrest:hamcrest:jar:2.2</node>
+            <node x="3857.3954216269844" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2</node>
+            <node x="3790.353754960318" y="535.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2</node>
+            <node x="3648.1249751984133" y="321.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.apiguardian:apiguardian-api:jar:1.1.0</node>
+            <node x="3473.1249751984133" y="408.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.opentest4j:opentest4j:jar:1.2.0</node>
+            <node x="3637.3329216269844" y="408.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.junit.platform:junit-platform-commons:jar:1.6.2</node>
+            <node x="3901.478754960318" y="622.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-params:jar:5.6.2</node>
+            <node x="3437.8954216269844" y="622.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2</node>
+            <node x="3429.3954216269844" y="535.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2/org.junit.platform:junit-platform-engine:jar:1.6.2</node>
+            <node x="3109.9464285714284" y="622.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3</node>
+            <node x="3260.8954216269844" y="535.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy:jar:1.10.11</node>
+            <node x="3060.8954216269844" y="535.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy-agent:jar:1.10.11</node>
+            <node x="2929.8954216269844" y="535.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3/org.objenesis:objenesis:jar:2.6</node>
+            <node x="3488.3954216269844" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3</node>
+            <node x="2256.8954216269844" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="2298.583308531747" y="622.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="679.0416418650805" y="87.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE</node>
+            <node x="687.5416418650805" y="0.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE/org.springframework:spring-jcl:jar:5.2.7.RELEASE</node>
+            <node x="4044.478754960318" y="224.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-test:jar:5.2.7.RELEASE</node>
+            <node x="1635.9464285714284" y="729.0">org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.7.0</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-test:jar:5.2.7.RELEASE">
+              <point x="87.21428571428567" y="-18.5" />
+              <point x="2959.9107142857138" y="836.0" />
+              <point x="4105.978754960318" y="836.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="-28.5" y="-18.5" />
+              <point x="2770.8954216269844" y="709.0" />
+              <point x="2736.3954216269844" y="709.0" />
+              <point x="2736.3954216269844" y="465.0" />
+              <point x="1041.9464285714282" y="465.0" />
+              <point x="43.28571428571422" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE/org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="70.33333333333348" y="-18.5" />
+              <point x="625.3333333333333" y="495.0" />
+              <point x="955.3749999999998" y="495.0" />
+              <point x="-43.28571428571422" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE">
+              <point x="-93.66666666666674" y="-18.5" />
+              <point x="2439.728754960318" y="699.0" />
+              <point x="2158.1907093253967" y="699.0" />
+              <point x="61.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE">
+              <point x="46.75" y="-18.5" />
+              <point x="1569.1964285714284" y="699.0" />
+              <point x="1713.9047619047617" y="699.0" />
+              <point x="1713.9047619047617" y="592.0" />
+              <point x="2301.1907093253967" y="592.0" />
+              <point x="-49.125" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-aop:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="31.0" y="-18.5" />
+              <point x="513.4999999999998" y="184.0" />
+              <point x="727.0416418650805" y="184.0" />
+              <point x="-16.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE">
+              <point x="-43.0" y="-18.5" />
+              <point x="376.35737599206345" y="699.0" />
+              <point x="101.24999999999977" y="699.0" />
+              <point x="101.24999999999977" y="388.0" />
+              <point x="176.24999999999977" y="388.0" />
+              <point x="-27.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.yaml:snakeyaml:jar:1.26">
+              <point x="15.583333333333485" y="-18.5" />
+              <point x="1538.029761904762" y="689.0" />
+              <point x="1606.7556944444452" y="689.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.30">
+              <point x="0.0" y="-18.5" />
+              <point x="1168.2556944444452" y="602.0" />
+              <point x="1136.0056944444452" y="602.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE/org.springframework:spring-expression:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="676.4999999999998" y="204.0" />
+              <point x="748.374975198414" y="204.0" />
+              <point x="5.333333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE">
+              <point x="-103.07142857142867" y="-18.5" />
+              <point x="2769.6249999999995" y="846.0" />
+              <point x="1569.1964285714284" y="846.0" />
+              <point x="46.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-params:jar:5.6.2">
+              <point x="43.666666666666686" y="-18.5" />
+              <point x="3966.562088293651" y="709.0" />
+              <point x="3998.478754960318" y="709.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE">
+              <point x="-23.78571428571422" y="-18.5" />
+              <point x="2848.910714285714" y="796.0" />
+              <point x="2684.3954216269844" y="796.0" />
+              <point x="41.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="-15.583333333333485" y="-18.5" />
+              <point x="1506.863095238095" y="679.0" />
+              <point x="1535.7556944444452" y="679.0" />
+              <point x="1535.7556944444452" y="194.0" />
+              <point x="769.708308531747" y="194.0" />
+              <point x="26.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3">
+              <point x="39.64285714285711" y="-18.5" />
+              <point x="2912.3392857142853" y="806.0" />
+              <point x="3588.3954216269844" y="806.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE">
+              <point x="-39.64285714285711" y="-18.5" />
+              <point x="2833.053571428571" y="806.0" />
+              <point x="2533.3954216269844" y="806.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE">
+              <point x="67.75" y="-18.5" />
+              <point x="1004.9823759920635" y="846.0" />
+              <point x="1475.6964285714284" y="846.0" />
+              <point x="-46.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="57.0" y="-18.5" />
+              <point x="727.9999999999998" y="388.0" />
+              <point x="944.8962202380957" y="388.0" />
+              <point x="944.8962202380957" y="204.0" />
+              <point x="759.0416418650805" y="204.0" />
+              <point x="16.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-context-support:jar:5.2.7.RELEASE">
+              <point x="-14.333333333333485" y="-18.5" />
+              <point x="405.02404265872997" y="689.0" />
+              <point x="268.4999999999998" y="689.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3">
+              <point x="-71.35714285714289" y="-18.5" />
+              <point x="2801.3392857142853" y="826.0" />
+              <point x="1942.6343154761912" y="826.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5">
+              <point x="-46.75" y="-18.5" />
+              <point x="1475.6964285714284" y="699.0" />
+              <point x="1419.7556944444452" y="699.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE">
+              <point x="-75.75" y="-18.5" />
+              <point x="578.8954216269844" y="602.0" />
+              <point x="398.9999999999998" y="602.0" />
+              <point x="398.9999999999998" y="378.0" />
+              <point x="230.74999999999977" y="378.0" />
+              <point x="27.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-oxm:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="-32.0" y="-18.5" />
+              <point x="32.0" y="144.0" />
+              <point x="684.374975198414" y="144.0" />
+              <point x="-58.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="-84.0" y="-18.5" />
+              <point x="1084.2556944444452" y="602.0" />
+              <point x="979.0056944444452" y="602.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE">
+              <point x="-67.75" y="-18.5" />
+              <point x="869.4823759920635" y="846.0" />
+              <point x="419.35737599206345" y="846.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2">
+              <point x="-43.66666666666663" y="-18.5" />
+              <point x="3879.228754960318" y="699.0" />
+              <point x="3532.8954216269844" y="699.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.junit.platform:junit-platform-commons:jar:1.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="0.0" y="-18.5" />
+              <point x="3752.3329216269844" y="388.0" />
+              <point x="3729.1249751984133" y="388.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="2642.8954216269844" y="592.0" />
+              <point x="2399.4407093253967" y="592.0" />
+              <point x="49.125" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="53.666666666666515" y="-18.5" />
+              <point x="3924.520421626984" y="515.0" />
+              <point x="3977.818194444445" y="515.0" />
+              <point x="3977.818194444445" y="388.0" />
+              <point x="3761.524975198414" y="388.0" />
+              <point x="32.40000000000009" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="2096.6907093253967" y="602.0" />
+              <point x="2333.9407093253967" y="602.0" />
+              <point x="-16.375" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2/org.junit.platform:junit-platform-engine:jar:1.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.opentest4j:opentest4j:jar:1.2.0">
+              <point x="0.0" y="-18.5" />
+              <point x="3532.8954216269844" y="515.0" />
+              <point x="3503.3749751984133" y="515.0" />
+              <point x="-30.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE/org.springframework:spring-expression:jar:5.2.7.RELEASE">
+              <point x="19.0" y="-18.5" />
+              <point x="689.9999999999998" y="388.0" />
+              <point x="676.4999999999998" y="388.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3/jakarta.activation:jakarta.activation-api:jar:1.2.2">
+              <point x="0.0" y="-18.5" />
+              <point x="1942.6343154761912" y="699.0" />
+              <point x="1853.1907093253967" y="699.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE">
+              <point x="93.66666666666652" y="-18.5" />
+              <point x="2627.062088293651" y="709.0" />
+              <point x="2601.3954216269844" y="709.0" />
+              <point x="-41.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="-34.5" y="-18.5" />
+              <point x="1293.4464285714284" y="495.0" />
+              <point x="1027.5178571428567" y="495.0" />
+              <point x="28.857142857142662" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2">
+              <point x="63.33333333333337" y="-18.5" />
+              <point x="3596.228754960318" y="592.0" />
+              <point x="3810.478754960318" y="592.0" />
+              <point x="-60.375" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2/org.junit.platform:junit-platform-engine:jar:1.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.junit.platform:junit-platform-commons:jar:1.6.2">
+              <point x="69.0" y="-18.5" />
+              <point x="3601.8954216269844" y="515.0" />
+              <point x="3694.8329216269844" y="515.0" />
+              <point x="-57.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE/org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE">
+              <point x="-70.33333333333348" y="-18.5" />
+              <point x="484.6666666666663" y="505.0" />
+              <point x="409.9999999999998" y="505.0" />
+              <point x="409.9999999999998" y="301.0" />
+              <point x="360.14542162698444" y="301.0" />
+              <point x="11.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3">
+              <point x="84.0" y="-18.5" />
+              <point x="1252.2556944444452" y="602.0" />
+              <point x="1327.9464285714284" y="602.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="-63.33333333333326" y="-18.5" />
+              <point x="3469.562088293651" y="602.0" />
+              <point x="3400.3954216269844" y="602.0" />
+              <point x="3400.3954216269844" y="378.0" />
+              <point x="3664.3249751984135" y="378.0" />
+              <point x="-64.79999999999995" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3/org.objenesis:objenesis:jar:2.6">
+              <point x="-47.66666666666674" y="-18.5" />
+              <point x="3133.7797619047615" y="602.0" />
+              <point x="2985.3954216269844" y="602.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2">
+              <point x="71.35714285714289" y="-18.5" />
+              <point x="2944.0535714285716" y="826.0" />
+              <point x="3922.8954216269844" y="826.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-context-support:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="268.4999999999998" y="301.0" />
+              <point x="336.8120882936514" y="301.0" />
+              <point x="-11.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2">
+              <point x="50.0" y="-18.5" />
+              <point x="3638.3954216269844" y="709.0" />
+              <point x="3652.770808531747" y="709.0" />
+              <point x="3652.770808531747" y="602.0" />
+              <point x="3850.728754960318" y="602.0" />
+              <point x="-20.125" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-context-support:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="-72.66666666666652" y="-18.5" />
+              <point x="195.83333333333326" y="515.0" />
+              <point x="138.49999999999977" y="515.0" />
+              <point x="138.49999999999977" y="154.0" />
+              <point x="695.0416418650805" y="154.0" />
+              <point x="-48.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE/org.springframework:spring-jcl:jar:5.2.7.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-oxm:jar:5.2.7.RELEASE">
+              <point x="-71.66666666666652" y="-18.5" />
+              <point x="347.69070932539694" y="709.0" />
+              <point x="64.0" y="709.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.assertj:assertj-core:jar:3.16.1">
+              <point x="55.5" y="-18.5" />
+              <point x="2928.1964285714284" y="816.0" />
+              <point x="3772.8954216269844" y="816.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-test:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="4105.978754960318" y="164.0" />
+              <point x="801.708308531747" y="164.0" />
+              <point x="58.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0">
+              <point x="-55.5" y="-18.5" />
+              <point x="2817.1964285714284" y="816.0" />
+              <point x="2314.8954216269844" y="816.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-context-support:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE">
+              <point x="72.66666666666652" y="-18.5" />
+              <point x="341.1666666666663" y="515.0" />
+              <point x="620.3333333333333" y="515.0" />
+              <point x="-50.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE/org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE">
+              <point x="-25.25" y="-18.5" />
+              <point x="629.3954216269844" y="592.0" />
+              <point x="554.9999999999998" y="592.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="7.928571428571331" y="-18.5" />
+              <point x="2880.6249999999995" y="786.0" />
+              <point x="2919.3954216269844" y="786.0" />
+              <point x="2919.3954216269844" y="174.0" />
+              <point x="791.0416418650805" y="174.0" />
+              <point x="48.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-params:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2">
+              <point x="-48.5" y="-18.5" />
+              <point x="3949.978754960318" y="602.0" />
+              <point x="3931.228754960318" y="602.0" />
+              <point x="60.375" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE">
+              <point x="-19.0" y="-18.5" />
+              <point x="651.9999999999998" y="388.0" />
+              <point x="665.4999999999998" y="388.0" />
+              <point x="665.4999999999998" y="281.0" />
+              <point x="406.8120882936514" y="281.0" />
+              <point x="58.333333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE">
+              <point x="25.25" y="-18.5" />
+              <point x="679.8954216269844" y="602.0" />
+              <point x="670.9999999999998" y="602.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-params:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="48.5" y="-18.5" />
+              <point x="4046.978754960318" y="378.0" />
+              <point x="3793.9249751984134" y="378.0" />
+              <point x="64.79999999999995" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3/org.apache.logging.log4j:log4j-api:jar:2.13.3">
+              <point x="34.5" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE">
+              <point x="27.25" y="-18.5" />
+              <point x="230.74999999999977" y="291.0" />
+              <point x="313.47875496031793" y="291.0" />
+              <point x="-35.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="71.66666666666652" y="-18.5" />
+              <point x="491.02404265872997" y="709.0" />
+              <point x="891.0056944444452" y="709.0" />
+              <point x="891.0056944444452" y="515.0" />
+              <point x="984.2321428571424" y="515.0" />
+              <point x="-14.428571428571558" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.30" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="0.0" y="-18.5" />
+              <point x="1136.0056944444452" y="505.0" />
+              <point x="1013.0892857142856" y="505.0" />
+              <point x="14.428571428571558" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.hamcrest:hamcrest:jar:2.2">
+              <point x="103.07142857142867" y="-18.5" />
+              <point x="2975.767857142857" y="846.0" />
+              <point x="4171.978754960318" y="846.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2/org.junit.platform:junit-platform-engine:jar:1.6.2">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="75.75" y="-18.5" />
+              <point x="730.3954216269844" y="602.0" />
+              <point x="867.6306944444452" y="602.0" />
+              <point x="867.6306944444452" y="505.0" />
+              <point x="969.8035714285713" y="505.0" />
+              <point x="-28.857142857142662" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE">
+              <point x="-32.75" y="-18.5" />
+              <point x="2317.5657093253967" y="475.0" />
+              <point x="721.6666666666663" y="475.0" />
+              <point x="50.666666666666515" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.7.0">
+              <point x="-87.21428571428578" y="-18.5" />
+              <point x="2785.4821428571427" y="836.0" />
+              <point x="1704.9464285714284" y="836.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="2533.3954216269844" y="602.0" />
+              <point x="2366.6907093253967" y="602.0" />
+              <point x="16.375" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3">
+              <point x="23.78571428571422" y="-18.5" />
+              <point x="2896.4821428571427" y="796.0" />
+              <point x="3145.6964285714284" y="796.0" />
+              <point x="-35.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1">
+              <point x="0.0" y="-18.5" />
+              <point x="2314.8954216269844" y="709.0" />
+              <point x="2367.583308531747" y="709.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE/org.springframework:spring-context:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-aop:jar:5.2.7.RELEASE">
+              <point x="-57.0" y="-18.5" />
+              <point x="613.9999999999998" y="388.0" />
+              <point x="513.4999999999998" y="388.0" />
+              <point x="31.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2">
+              <point x="0.0" y="-18.5" />
+              <point x="3922.8954216269844" y="709.0" />
+              <point x="3890.978754960318" y="709.0" />
+              <point x="20.125" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy-agent:jar:1.10.11">
+              <point x="0.0" y="-18.5" />
+              <point x="3181.4464285714284" y="602.0" />
+              <point x="3150.8954216269844" y="602.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE">
+              <point x="77.91666666666652" y="-18.5" />
+              <point x="1600.363095238095" y="709.0" />
+              <point x="2035.1907093253967" y="709.0" />
+              <point x="-61.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2/org.junit.platform:junit-platform-engine:jar:1.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.apiguardian:apiguardian-api:jar:1.1.0">
+              <point x="-69.0" y="-18.5" />
+              <point x="3463.8954216269844" y="515.0" />
+              <point x="3442.5204216269844" y="515.0" />
+              <point x="3442.5204216269844" y="388.0" />
+              <point x="3696.7249751984136" y="388.0" />
+              <point x="-32.40000000000009" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy:jar:1.10.11">
+              <point x="47.66666666666674" y="-18.5" />
+              <point x="3229.1130952380954" y="602.0" />
+              <point x="3325.3954216269844" y="602.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE">
+              <point x="43.0" y="-18.5" />
+              <point x="462.35737599206345" y="699.0" />
+              <point x="654.6454216269844" y="699.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="-27.25" y="-18.5" />
+              <point x="176.24999999999977" y="164.0" />
+              <point x="705.708308531747" y="164.0" />
+              <point x="-37.333333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0">
+              <point x="-7.928571428571331" y="-18.5" />
+              <point x="2864.767857142857" y="786.0" />
+              <point x="2799.3954216269844" y="786.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-aop:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE">
+              <point x="-31.0" y="-18.5" />
+              <point x="451.4999999999998" y="291.0" />
+              <point x="383.47875496031793" y="291.0" />
+              <point x="35.0" y="18.5" />
+            </edge>
+            <edge source="com.ygy.study:redis-demo:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE">
+              <point x="-32.0" y="-18.5" />
+              <point x="1672.268090277778" y="928.0" />
+              <point x="937.2323759920635" y="928.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="32.75" y="-18.5" />
+              <point x="2383.0657093253967" y="184.0" />
+              <point x="780.374975198414" y="184.0" />
+              <point x="37.333333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-aop:jar:5.2.7.RELEASE">
+              <point x="14.333333333333485" y="-18.5" />
+              <point x="433.69070932539694" y="679.0" />
+              <point x="387.9999999999998" y="679.0" />
+              <point x="387.9999999999998" y="388.0" />
+              <point x="451.4999999999998" y="388.0" />
+              <point x="-31.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.30">
+              <point x="38.75" y="-18.5" />
+              <point x="1017.7556944444452" y="515.0" />
+              <point x="998.660714285714" y="515.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.mockito:mockito-core:jar:3.3.3">
+              <point x="-50.0" y="-18.5" />
+              <point x="3538.3954216269844" y="709.0" />
+              <point x="3217.1964285714284" y="709.0" />
+              <point x="35.75" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.opentest4j:opentest4j:jar:1.2.0">
+              <point x="-53.66666666666663" y="-18.5" />
+              <point x="3817.187088293651" y="505.0" />
+              <point x="3563.8749751984133" y="505.0" />
+              <point x="30.25" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="-38.75" y="-18.5" />
+              <point x="940.2556944444452" y="485.0" />
+              <point x="837.4999999999998" y="485.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="com.ygy.study:redis-demo:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE">
+              <point x="32.0" y="-18.5" />
+              <point x="1736.268090277778" y="928.0" />
+              <point x="2872.6964285714284" y="928.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE">
+              <point x="-77.91666666666652" y="-18.5" />
+              <point x="1444.529761904762" y="709.0" />
+              <point x="1168.2556944444452" y="709.0" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.junit.platform:junit-platform-commons:jar:1.6.2">
+              <point x="0.0" y="-18.5" />
+              <point x="3870.853754960318" y="495.0" />
+              <point x="3809.8329216269844" y="495.0" />
+              <point x="57.5" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3">
+              <point x="28.5" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-oxm:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE">
+              <point x="32.0" y="-18.5" />
+              <point x="96.0" y="281.0" />
+              <point x="290.14542162698444" y="281.0" />
+              <point x="-58.333333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.3.1.RELEASE/org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="554.9999999999998" y="194.0" />
+              <point x="737.708308531747" y="194.0" />
+              <point x="-5.333333333333485" y="18.5" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-data-redis:jar:2.3.1.RELEASE/org.springframework.data:spring-data-redis:jar:2.3.1.RELEASE/org.springframework:spring-tx:jar:5.2.7.RELEASE/org.springframework:spring-beans:jar:5.2.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.springframework:spring-core:jar:5.2.7.RELEASE">
+              <point x="0.0" y="-18.5" />
+              <point x="348.47875496031793" y="174.0" />
+              <point x="716.374975198414" y="174.0" />
+              <point x="-26.666666666666515" y="18.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.33002129169623845" x="717.2258064516129" y="-26.17849462365598" />
+          <SelectedNodes>
+            <node>org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.7.0</node>
+            <node>com.ygy.study:redis-demo:0.0.1-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="795" column="33" selection-start-line="795" selection-start-column="33" selection-end-line="795" selection-end-column="33" />
+          <folding>
+            <element signature="e#29389#29390#0" expanded="true" />
+            <element signature="e#29425#29426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/core/StringRedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.data.redis.serializer.RedisSerializer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.data.redis.serializer.RedisSerializer</OriginalElement>
+          <nodes>
+            <node x="1134.0" y="107.0">org.springframework.data.redis.serializer.OxmSerializer</node>
+            <node x="872.0" y="107.0">org.springframework.data.redis.serializer.ByteArrayRedisSerializer</node>
+            <node x="1553.0" y="107.0">org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer</node>
+            <node x="1901.0" y="107.0">com.alibaba.fastjson.support.spring.FastJsonRedisSerializer</node>
+            <node x="290.0" y="107.0">org.springframework.data.redis.serializer.GenericToStringSerializer</node>
+            <node x="1319.0" y="107.0">org.springframework.data.redis.serializer.StringRedisSerializer</node>
+            <node x="561.0" y="107.0">com.alibaba.fastjson.support.spring.GenericFastJsonRedisSerializer</node>
+            <node x="2154.0" y="107.0">org.springframework.data.redis.serializer.JdkSerializationRedisSerializer</node>
+            <node x="0.0" y="107.0">org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer</node>
+            <node x="1132.0" y="0.0">org.springframework.data.redis.serializer.RedisSerializer</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.data.redis.serializer.StringRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="1426.0" y="87.0" />
+              <point x="1235.2777777777778" y="87.0" />
+              <point x="18.77777777777783" y="18.5" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.ByteArrayRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="993.0" y="87.0" />
+              <point x="1197.7222222222222" y="87.0" />
+              <point x="-18.77777777777783" y="18.5" />
+            </edge>
+            <edge source="com.alibaba.fastjson.support.spring.GenericFastJsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="706.5" y="77.0" />
+              <point x="1178.9444444444443" y="77.0" />
+              <point x="-37.55555555555566" y="18.5" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.OxmSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="0.0" y="18.5" />
+            </edge>
+            <edge source="com.alibaba.fastjson.support.spring.FastJsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="2017.5" y="67.0" />
+              <point x="1272.8333333333333" y="67.0" />
+              <point x="56.33333333333326" y="18.5" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="135.0" y="57.0" />
+              <point x="1141.388888888889" y="57.0" />
+              <point x="-75.11111111111109" y="18.5" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="1717.0" y="77.0" />
+              <point x="1254.0555555555557" y="77.0" />
+              <point x="37.55555555555566" y="18.5" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.GenericToStringSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="415.5" y="67.0" />
+              <point x="1160.1666666666667" y="67.0" />
+              <point x="-56.33333333333326" y="18.5" />
+            </edge>
+            <edge source="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" target="org.springframework.data.redis.serializer.RedisSerializer">
+              <point x="0.0" y="-18.5" />
+              <point x="2297.0" y="57.0" />
+              <point x="1291.611111111111" y="57.0" />
+              <point x="75.11111111111109" y="18.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9747967479674796" x="226.2051709758132" y="47.37948290241866" />
+          <SelectedNodes>
+            <node>org.springframework.data.redis.serializer.RedisSerializer</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="134" column="9" lean-forward="true" selection-start-line="123" selection-start-column="4" selection-end-line="134" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/RedisDemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/serializer/DefaultSerializerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="58" selection-start-line="58" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#3251#3252#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.61/fastjson-1.2.61.jar!/com/alibaba/fastjson/support/spring/GenericFastJsonRedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="56" column="162" selection-start-line="56" selection-start-column="150" selection-end-line="56" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.jar!/org/springframework/cache/annotation/EnableCaching.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/serializer/CusumerSerializerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/test/java/com/ygy/study/redisdemo/cache/RedisCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.2.7.RELEASE/spring-context-support-5.2.7.RELEASE.jar!/org/springframework/cache/transaction/AbstractTransactionSupportingCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.jar!/org/springframework/cache/support/AbstractCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.3.1.RELEASE/spring-data-redis-2.3.1.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5286">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/RedisDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/redisconfig/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="37" column="92" lean-forward="true" selection-start-line="37" selection-start-column="92" selection-end-line="37" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/model/UserSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/dao/UserCacheDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/java/com/ygy/study/redisdemo/cacheconfig/CacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
