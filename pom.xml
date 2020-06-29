@@ -13,5 +13,6 @@
         <module>exception-international-demo</module>
         <module>swagger-demo</module>
         <module>security-demo</module>
+        <module>starter-autoconfig-demo</module>
     </modules>
 </project>
