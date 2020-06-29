@@ -11,5 +11,6 @@
     <modules>
         <module>redis-demo</module>
         <module>exception-international-demo</module>
+        <module>swagger-demo</module>
     </modules>
 </project>
