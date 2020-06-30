@@ -14,5 +14,6 @@
         <module>swagger-demo</module>
         <module>security-demo</module>
         <module>starter-autoconfig-demo</module>
+        <module>tomcat-demo</module>
     </modules>
 </project>
