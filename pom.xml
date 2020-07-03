@@ -15,5 +15,6 @@
         <module>security-demo</module>
         <module>starter-autoconfig-demo</module>
         <module>tomcat-demo</module>
+        <module>mybatis-demo</module>
     </modules>
 </project>
