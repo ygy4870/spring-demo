@@ -16,5 +16,7 @@
         <module>starter-autoconfig-demo</module>
         <module>tomcat-demo</module>
         <module>mybatis-demo</module>
+        <module>cors-demo</module>
+        <module>io-demo</module>
     </modules>
 </project>
