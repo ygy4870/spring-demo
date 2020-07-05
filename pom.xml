@@ -18,5 +18,6 @@
         <module>mybatis-demo</module>
         <module>cors-demo</module>
         <module>io-demo</module>
+        <module>mybatis-genertor-demo</module>
     </modules>
 </project>
