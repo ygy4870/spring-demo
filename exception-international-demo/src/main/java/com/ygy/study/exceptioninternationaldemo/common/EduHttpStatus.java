@@ -1,7 +1,6 @@
 package com.ygy.study.exceptioninternationaldemo.common;
 
 /**
- * Created by panjinghong on 04/01/2018.
  */
 public enum EduHttpStatus {
 	BUSINESS_ERROR(299, "业务错误");

@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by panjinghong on 04/01/2018.
  * 拓展 ResponseEntity，增加一个 httpStatus：（当业务错误需要前端处理时，统一返回 httpStatus：BUSINESS_ERROR 299）
  */
 public class EduResponseEntity<T> extends ResponseEntity<T> {
