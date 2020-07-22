@@ -18,3 +18,8 @@ TODO：
  *      <artifactId>spring-boot-configuration-processor</artifactId>
  * 但不加，功能上也没有问题，后面再研究下
  */
+ 
+ 
+ mysql读写分离
+ 		https://www.cnblogs.com/cjsblog/p/9712457.html
+ 		https://blog.csdn.net/LHQJ1992/article/details/97175384
