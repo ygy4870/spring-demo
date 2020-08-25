@@ -7,6 +7,7 @@
     <groupId>com.ygy.study</groupId>
     <artifactId>spring-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>redis-demo</module>
@@ -19,5 +20,6 @@
         <module>cors-demo</module>
         <module>io-demo</module>
         <module>mybatis-generator-demo</module>
+        <module>aop-demo</module>
     </modules>
 </project>
