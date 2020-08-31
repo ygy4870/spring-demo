@@ -32,4 +32,16 @@ public class ProxyTest {
         System.out.println(str1==str2);
         System.out.println(str1.equals(str2));
     }
+
+    @Test
+    public void name2() {
+        String str1 = "hello-axxxxxxhello";
+        String hello = "hello";
+        String hello2 = "hello2";
+        int index = str1.indexOf(hello);
+        System.out.println(index);
+
+        System.out.println(hello2 + str1.substring(hello.length()));
+    }
+
 }

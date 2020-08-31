@@ -1,5 +1,8 @@
 package com.ygy.study.aopdemo.proxy;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ServiceB {
 
     public void hello1(){
