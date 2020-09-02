@@ -22,5 +22,6 @@
         <module>mybatis-generator-demo</module>
         <module>aop-demo</module>
         <module>ioc-demo</module>
+        <module>zk-demo</module>
     </modules>
 </project>
