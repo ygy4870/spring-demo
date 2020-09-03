@@ -1,9 +1,11 @@
 package com.ygy.study.iocdemo;
 
-import com.ygy.study.iocdemo.beanfactory.ABean;
-import com.ygy.study.iocdemo.beanfactory.AbcBean;
+import com.ygy.study.iocdemo.beanfactory.annotation.ABean;
+import com.ygy.study.iocdemo.beanfactory.annotation.AbcBean;
+import com.ygy.study.iocdemo.beanfactory.xml.TestXmlBean;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class BeanFactoryTest {
 
@@ -24,6 +26,12 @@ public class BeanFactoryTest {
         System.out.println(context.getBean("abcBean"));
 //        System.out.println(context.getBean("AbcBean"));
         System.out.println(context.getBean(AbcBean.class));
+    }
+
+    @Test
+    void xml_test() {
+        ClassPathXmlApplicationContext xmlApplicationContext = new ClassPathXmlApplicationContext("xml-application.xml");
+        System.out.println(xmlApplicationContext.getBean(TestXmlBean.class));
     }
 
 }

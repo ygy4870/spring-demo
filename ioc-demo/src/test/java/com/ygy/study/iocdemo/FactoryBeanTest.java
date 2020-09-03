@@ -17,4 +17,11 @@ public class FactoryBeanTest {
         System.out.println(myFactoryBean.getClass());
     }
 
+    @Test
+    void name() {
+        String lastLevel = "00010110";
+        String nextOrgLevel = String.valueOf((Integer.valueOf(lastLevel.substring(lastLevel.length() - 4, lastLevel.length())) + 1));
+        nextOrgLevel = "0000".substring(0, 4 - nextOrgLevel.length()) + nextOrgLevel;
+        System.out.println(nextOrgLevel);
+    }
 }
