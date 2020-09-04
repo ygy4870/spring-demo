@@ -15,5 +15,17 @@ public interface DisposableBean {
 
 3、使用 @PostConstruct 注解方法，在bean初始化完成后被调用
 
-4、@PreDestroy注解通常被认为是在现代Spring应用程序中接收生命周期回调的最佳实践。使用这些注释意味着你的bean没有耦合到Spring特定的接口。有关详细信息，请参阅@PostConstruct和@PreDestroy。 
-  如果您不想使用JSR-250注释，但仍想要移除耦合，请考虑使用init-method和destroy-method对象定义元数据。
+4、使用@PreDestroy注解通方法，在被容器销毁时调用
+  
+5、在xml或者注解配置上，使用init-method和destroy-method对象定义元数据
+
+6、实现ApplicationContextAware获取ApplicationContext
+    public interface ApplicationContextAware extends Aware {
+        void setApplicationContext(ApplicationContext applicationContext) throws BeansException;
+    }
+    通过自动装配的方式获取，更好
+    
+    @Autowired
+    ApplicationContext applicationContext;
+
+https://blog.csdn.net/wd2014610/article/details/80403804
