@@ -3,12 +3,13 @@ package com.ygy.study.iodemo;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelReader;
 import com.alibaba.excel.read.metadata.ReadSheet;
+import com.ygy.study.iodemo.excel.CampusTemplateListener;
 import com.ygy.study.iodemo.excel.DataListener;
+import com.ygy.study.iodemo.model.CampusTemplate;
 import com.ygy.study.iodemo.model.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,6 +61,14 @@ class IoDemoApplicationTests {
             }
         }
 
+
+    }
+
+    @Test
+    public void campusRead() {
+
+        String fileName = "【顺德】星火标准合同模版配置表20200908.xlsx";
+        EasyExcel.read(fileName, CampusTemplate.class, new CampusTemplateListener()).sheet().doRead();
 
     }
 
