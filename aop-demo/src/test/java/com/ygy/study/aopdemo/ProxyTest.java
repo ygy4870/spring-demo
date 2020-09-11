@@ -1,7 +1,10 @@
 package com.ygy.study.aopdemo;
 
+import com.alibaba.fastjson.JSON;
 import com.ygy.study.aopdemo.proxy.*;
 import org.junit.Test;
+
+import java.util.List;
 
 public class ProxyTest {
 
@@ -42,6 +45,17 @@ public class ProxyTest {
         System.out.println(index);
 
         System.out.println(hello2 + str1.substring(hello.length()));
+    }
+
+
+    @Test
+    public void dsfdsfds() {
+
+        String refundEcEmReasons ="[\"散热温热\",\"条约他问我\"]";
+
+        List<String> list = JSON.parseArray(refundEcEmReasons, String.class);
+
+        System.out.println(list);
     }
 
 }
