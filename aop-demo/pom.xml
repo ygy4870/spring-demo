@@ -53,6 +53,11 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>

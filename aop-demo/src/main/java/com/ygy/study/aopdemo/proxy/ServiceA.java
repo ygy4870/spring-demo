@@ -15,4 +15,16 @@ public class ServiceA implements IService{
         System.out.println("ServiceA say2");
     }
 
+    private void say3() {
+        System.out.println("ServiceA say3");
+    }
+
+    public final void say4() {
+        System.out.println("ServiceA say4");
+    }
+
+    public static void say5() {
+        System.out.println("ServiceA say4");
+    }
+
 }

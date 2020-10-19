@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class ServiceLogAspect {
 
-    @Pointcut("execution(* com.ygy.study.aopdemo.proxy.ServiceA.say1())")
+    @Pointcut("execution(* com.ygy.study.aopdemo.proxy.ServiceA.*())")
     public void log(){}
 
     @Before("log()")
