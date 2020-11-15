@@ -27,4 +27,9 @@ public class ServiceA implements IService{
         System.out.println("ServiceA say4");
     }
 
+    public void say4(String a, int i) {
+        System.out.println("ServiceA say4");
+        say3();
+    }
+
 }

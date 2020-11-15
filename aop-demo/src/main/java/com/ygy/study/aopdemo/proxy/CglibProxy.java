@@ -16,9 +16,13 @@ public class CglibProxy implements MethodInterceptor {
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        long starttime = System.nanoTime();
+
+
+        System.out.println(method.getClass().getName());
+
+        System.out.println(method.getName() + "----------------start-------------------");
         Object invoke = methodProxy.invoke(this.target, objects);
-        System.out.println(""+methodProxy.getSuperName()+"执行时长="+(System.nanoTime()-starttime));
+        System.out.println(method.getName() + "-----------------end--------------------");
         return invoke;
     }
 
