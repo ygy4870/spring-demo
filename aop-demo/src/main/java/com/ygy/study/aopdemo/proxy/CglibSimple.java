@@ -23,6 +23,11 @@ public class CglibSimple {
         System.out.println("-------testPublic------");
     }
 
+    public void testPublic2() {
+        System.out.println("-------testPublic2------");
+        testPublic();
+    }
+
     static void testStatic() {
         System.out.println("-------testStatic-------");
     }
