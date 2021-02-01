@@ -238,3 +238,6 @@ gradle-app.setting
 ## SVN template
 .svn/
 
+.mvn/
+mvnw
+mvnw.cmd
