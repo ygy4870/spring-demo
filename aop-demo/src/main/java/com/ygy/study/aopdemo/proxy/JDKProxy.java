@@ -14,10 +14,9 @@ public class JDKProxy implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        long starttime = System.nanoTime();
+        System.out.println(method.getName() + "----------------start-------------------");
         Object invoke = method.invoke(this.taget, args);
-
-        System.out.println(""+method.getName()+"执行时长="+(System.nanoTime()-starttime));
+        System.out.println(method.getName() + "-----------------end--------------------");
         return invoke;
     }
 
