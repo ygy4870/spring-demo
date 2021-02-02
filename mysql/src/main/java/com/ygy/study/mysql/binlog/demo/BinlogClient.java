@@ -1,4 +1,4 @@
-package com.ygy.study.mysql.binlog;
+package com.ygy.study.mysql.binlog.demo;
 
 import com.github.shyiko.mysql.binlog.BinaryLogClient;
 import com.github.shyiko.mysql.binlog.event.deserialization.EventDeserializer;

@@ -1,6 +1,5 @@
-package com.ygy.study.mysql.binlog;
+package com.ygy.study.mysql.binlog.demo;
 
-import com.alibaba.fastjson.JSON;
 import com.github.shyiko.mysql.binlog.BinaryLogFileReader;
 import com.github.shyiko.mysql.binlog.event.*;
 import com.github.shyiko.mysql.binlog.event.deserialization.EventDeserializer;
