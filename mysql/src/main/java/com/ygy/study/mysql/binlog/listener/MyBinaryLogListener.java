@@ -43,27 +43,21 @@ public class MyBinaryLogListener {
     public void run() {
         BinaryLogClient client = new BinaryLogClient(binlogProperties.getHostname(), binlogProperties.getPort(), binlogProperties.getSchema(),
                 binlogProperties.getUserName(), binlogProperties.getPassword());
-        EventDeserializer eventDeserializer = new EventDeserializer();
-        eventDeserializer.setCompatibilityMode(
-                EventDeserializer.CompatibilityMode.DATE_AND_TIME_AS_LONG,
-                EventDeserializer.CompatibilityMode.CHAR_AND_BINARY_AS_BYTE_ARRAY
-        );
 
-        new Thread(() -> {
-            client.registerEventListener(event -> {
+        client.registerEventListener(event -> {
 
-                System.out.println(event);
+            System.out.println(event);
 
-                MyDtsDto myDtsDto = parseEventAndBuildDts(event);
-                UserDtsDto user = JSON.parseObject(JSON.toJSONString(myDtsDto), UserDtsDto.class);
-                System.out.println(JSON.toJSON(user));
-            });
-            try {
-                client.connect();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }).start();
+            MyDtsDto myDtsDto = parseEventAndBuildDts(event);
+            UserDtsDto user = JSON.parseObject(JSON.toJSONString(myDtsDto), UserDtsDto.class);
+            System.out.println(JSON.toJSON(user));
+        });
+        try {
+            client.connect();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 
