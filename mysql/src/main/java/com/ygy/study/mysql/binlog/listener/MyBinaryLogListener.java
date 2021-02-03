@@ -5,6 +5,7 @@ import com.github.shyiko.mysql.binlog.BinaryLogClient;
 import com.github.shyiko.mysql.binlog.event.*;
 import com.github.shyiko.mysql.binlog.event.deserialization.EventDeserializer;
 import com.ygy.study.mysql.binlog.dto.MyDtsDto;
+import com.ygy.study.mysql.binlog.dto.UserDtsDto;
 import com.ygy.study.mysql.config.mysql.BinlogProperties;
 import com.ygy.study.mysql.dao.InformationSchemaDao;
 import com.ygy.study.mysql.entity.Columns;
@@ -50,8 +51,12 @@ public class MyBinaryLogListener {
 
         new Thread(() -> {
             client.registerEventListener(event -> {
+
+                System.out.println(event);
+
                 MyDtsDto myDtsDto = parseEventAndBuildDts(event);
-                System.out.println(JSON.toJSON(myDtsDto));
+                UserDtsDto user = JSON.parseObject(JSON.toJSONString(myDtsDto), UserDtsDto.class);
+                System.out.println(JSON.toJSON(user));
             });
             try {
                 client.connect();
@@ -127,7 +132,12 @@ public class MyBinaryLogListener {
         }
 
         for (Map.Entry<String, Object> entry : before.entrySet()) {
-            if (!entry.getValue().equals(after.get(entry.getKey()))) {
+            Object beforeValue = entry.getValue();
+            Object afterValue = after.get(entry.getKey());
+            if (Objects.nonNull(beforeValue) && !beforeValue.equals(afterValue)) {
+                updates.add(entry.getKey());
+            }
+            else if (Objects.nonNull(afterValue) && !afterValue.equals(beforeValue)) {
                 updates.add(entry.getKey());
             }
         }
@@ -140,14 +150,16 @@ public class MyBinaryLogListener {
         Map<Integer, String> filedPositionMap = tableColumnsCache.get(tableId);
         if (Objects.isNull(filedPositionMap)) {
             tableNameCache.put(tableId, data.getTable());
-            List<Columns> columns = informationSchemaDao.listColumnsByTable(data.getDatabase(), data.getTable());
-            if (!CollectionUtils.isEmpty(columns)) {
-                filedPositionMap = new HashMap<>(64);
-                for (Columns column : columns) {
-                    filedPositionMap.put(column.getOrdinalPosition()-1, column.getColumnName());
-                }
-                tableColumnsCache.put(tableId, filedPositionMap);
+        }
+
+        // 后续可做成定时刷新，不用每次都查询
+        List<Columns> columns = informationSchemaDao.listColumnsByTable(data.getDatabase(), data.getTable());
+        if (!CollectionUtils.isEmpty(columns)) {
+            filedPositionMap = new HashMap<>(64);
+            for (Columns column : columns) {
+                filedPositionMap.put(column.getOrdinalPosition() - 1, column.getColumnName());
             }
+            tableColumnsCache.put(tableId, filedPositionMap);
         }
     }
 
