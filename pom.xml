@@ -23,5 +23,7 @@
         <module>aop-demo</module>
         <module>ioc-demo</module>
         <module>zk-demo</module>
+        <module>es-demo</module>
+        <module>mysql</module>
     </modules>
 </project>
